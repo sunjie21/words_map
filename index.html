@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>words map</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p>When reading English articles, I always encounter some words I don't know what are their meanings. One day, I tested my vocabulary on <a href="https://testyourvocab.com" target="_blank">testyourvocab.com</a>, found that <a href="http://testyourvocab.com/result?user=17431352" target="_blank">I only knew 6850 words</a>. Most native English adult speakers know 25000-35000 words, and most foreigh English leaners know 2500-9000 words. I want to know how difficult an aritcle is for me to read.</p>
+    <p>This tool is built to analyse an article based on word frequncy found on <a href="http://norvig.com/mayzner.html" target="_blank">norvig.com</a></p>
+    <div id="chart"></div>
+    <div class="text"><textarea name="textarea" id="textarea1" placeholder="paste article content here."></textarea></div>
+    <div class="text"><textarea name="textarea" id="textarea2" placeholder="paste another article here to compare."></textarea></div>
+    <!-- <script id="words" src="google-books-common-words.json" type="application/json"></script> -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/echarts@5.2.2/dist/echarts.esm.min.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

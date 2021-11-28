@@ -1,0 +1,16 @@
+p {
+    margin: 10px 60px;
+}
+
+#chart {
+    height: 800px;
+}
+
+.text {
+    margin: 0 60px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
